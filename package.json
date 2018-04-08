@@ -4,7 +4,7 @@
   "description": "Command line interface for retrieving current public IP",
   "preferGlobal": true,
   "bin": {
-    "cfdn": "bin/chkip.js"
+    "chkip": "bin/chkip.js"
   },
   "main": "src/index.js",
   "scripts": {
