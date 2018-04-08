@@ -1,0 +1,33 @@
+{
+  "name": "chkip-cli",
+  "version": "0.1.0",
+  "description": "Command line interface for retrieving current public IP",
+  "preferGlobal": true,
+  "bin": {
+    "cfdn": "bin/chkip.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeapted/chkip-cli.git"
+  },
+  "author": "Mike Apted <mike.apted@gmail.com> (mike.apted@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeapted/chkip-cli/issues"
+  },
+  "homepage": "https://github.com/mikeapted/chkip-cli#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-match": "^1.1.1",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "chkip": "^0.1.5"
+  }
+}
